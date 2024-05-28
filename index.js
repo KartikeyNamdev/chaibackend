@@ -22,7 +22,9 @@ app.get("/youtube", (req, res) => {
 app.get("/page2", (req, res) => {
   res.send("This is page 2");
 });
-
+app.get("/page3", (req, res) => {
+  res.send("This is page 3");
+});
 app.listen(process.env.port, () => {
   console.log("This server is working on localhost 3000");
 });
